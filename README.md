@@ -1,4 +1,4 @@
-# livres de pierre
+# Libreria
 ## Una pequeña tienda online
 
 ### este proyecto esta creado con
