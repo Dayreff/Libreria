@@ -1,0 +1,96 @@
+
+.input {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-radius: 0px;
+}
+
+.input:focus {
+    box-shadow: 0 3px 2px -2px #007BFF;
+}
+
+
+.input-left {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.submit-right {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+
+.horizontal-scroll {
+    width: auto;
+    height: 260px;
+    overflow: scroll;
+ 	overflow-x: scroll;
+ 	overflow-y:hidden;
+    padding: 5px;
+    white-space: nowrap;
+}
+
+.horizontal-scroll  > a {
+    padding-top: 10px;
+    height: 235px;
+    margin-right: 15px;
+}
+
+a  > img {
+    height: 235px;
+}
+
+.book-card {
+    font-family: monospace;
+    margin: 4px;
+    background-color: rgb(250, 250, 250);
+    border-radius: 5px;
+    width: 175px;
+}
+
+.book-card img {
+    margin-top: 5px;
+    width: 165px;
+    border-radius: 4px;
+
+}
+
+.book-card  h4 {
+    font-size: 17px;
+    border-radius: 7px;
+}
+
+.book-card  p {
+    font-size: 18px;
+    border-radius: 7px;
+}
+
+.book-card  a {
+    border-radius: 7px;
+}
+
+.one-book .price {
+    font-size: 20px;
+}
+
+
+.one-book img {
+    width: 160px;
+}
+
+.to-cart {
+    border: 1px solid;
+    border-radius: 5px;
+}
+
+
+
+::-webkit-scrollbar {
+    width: 0px;
+}
+
+::-webkit-scrollbar-track-piece {
+    background-color: transparent;
+}
