@@ -1,6 +1,6 @@
 <?php
 
-$PageTitle="Livres de pierre";
+$PageTitle="Librerio";
 
 include_once('header.php');
 
@@ -33,7 +33,7 @@ if($nr) {
     echo '<div class="carousel-inner pl-5 pr-5">';
 
     echo '<div class="carousel-item active">';
-    echo    '<img src="../media/livres/kthulhu.jpg" class="d-block w-100" alt="">';
+    echo    '<img src="../media/libros/kthulhu.jpg" class="d-block w-100" alt="">';
     echo '</div>';
     
     $query = mysqli_query($con, $q);
@@ -67,9 +67,7 @@ if($nr) {
       <div class="card-header p-2"><h5 class="card-title">¿Quienes somos?</h5></div>
       <div class="card-body p-3 pb-1">
         <p class="card-text text-justify">
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam laboriosam id maxime quia assumenda cupiditate est culpa. Vel itaque facere qui dolor, distinctio sed aperiam assumenda, excepturi reiciendis eum consectetur!
-          <br>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio sit ipsa, omnis similique ducimus quod molestiae odio ipsam ut possimus quia beatae aliquam aspernatur commodi exercitationem nihil ex voluptates accusamus!
+          Somos una pagina diseñada por un programador con pocas horas de sueño... si lee esto profe... no me repruebe porfa :(
         </p>
       </div>
     </div>

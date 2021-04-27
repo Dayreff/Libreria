@@ -16,7 +16,7 @@ $user = @$_SESSION['username'];
 <head>
     <meta charset="utf-8" />
     <meta charset="ISO-8859-1">
-    <title><?= isset($PageTitle) ? $PageTitle : "Livres de pierre"?></title>
+    <title><?= isset($PageTitle) ? $PageTitle : "Librerio"?></title>
     <link rel="stylesheet" href="../css/bootstrap.min.css"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="../css/main.css"/>
@@ -24,7 +24,7 @@ $user = @$_SESSION['username'];
 <body>
 
 <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-  <a class="navbar-brand" href="index.php">Livres de pierre</a>
+  <a class="navbar-brand" href="index.php">Librerio</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>

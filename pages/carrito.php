@@ -36,9 +36,7 @@ $stock = table($con, "carrito");
         <li class="list-group-item d-flex justify-content-between lh-condensed">
           <div class="row">
             <div class="mr-2">
-                <button class="btn" href="#remove<?=$item['id']?>" data-toggle="modal">
-                    <i class="fa fa-times-circle fa-2x text-danger" aria-hidden="true"></i>
-                </button>
+
             </div>
             <div>
                 <h6 class="my-0"><?=$book["titulo"]?></h6>
